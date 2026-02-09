@@ -1,15 +1,188 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Welcome to My GitHub Pages Site</h1>
-    <p>This is a basic example of a GitHub Pages site.</p>
-    <script src="script.js"></script>
-</body>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Malik Nauman Rauf | Aerospace Engineer</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            /* Custom fix for News Images to keep them contained and proportional */
+            .news-image-container {
+                width: 100%;
+                max-height: 400px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #f4f4f4;
+                margin-bottom: 2em;
+            }
+            .news-image-container img {
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+            .logo-left {
+                width: 160px;
+                height: 160px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin: 0 auto 1.5em auto;
+                display: block;
+                border: 3px solid rgba(160, 160, 160, 0.3);
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <div id="wrapper">
+
+                <header id="header">
+                        <h1><a href="index.html">Malik Nauman Rauf</a></h1>
+                        <nav class="links">
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="experience.html">Experience</a></li>
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="publications.html">Publications</a></li>
+                                <li><a href="awards.html">Honors & Awards</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="main">
+                            <ul>
+                                <li class="menu">
+                                    <a class="fa-bars" href="#menu">Menu</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+
+                <section id="menu">
+                        <section>
+                            <ul class="links">
+                                <li><a href="about.html"><h3>About Me</h3></a></li>
+                                <li><a href="experience.html"><h3>Experience</h3></a></li>
+                                <li><a href="projects.html"><h3>Projects</h3></a></li>
+                                <li><a href="publications.html"><h3>Publications</h3></a></li>
+                                <li><a href="awards.html"><h3>Honors & Awards</h3></a></li>
+                            </ul>
+                        </section>
+                    </section>
+
+                <div id="main">
+
+                        <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h2><a href="#">Aerospace Engineer</a></h2>
+                                        <p>Fulbright Scholar | Masters in Aerospace Engineering at Georgia Tech</p>
+                                    </div>
+                                    <div class="meta">
+                                        <time class="published" datetime="2026-02-09">February 2026</time>
+                                        <a href="#" class="author"><span class="name">Nauman Rauf</span><img src="images/Family_Guy_Profile_Phot.jpg" alt="Profile" /></a>
+                                    </div>
+                                </header>
+                                <a href="#" class="image featured"><img src="images/Background.jpg" alt="Aerospace Header" /></a>
+                                <p>Welcome to my professional portfolio. I am an Aerospace Engineer specializing in flight mechanics, astrodynamics, and control systems. Currently conducting research at the Georgia Institute of Technology.</p>
+                            </article>
+
+                        <h2 style="text-align: center; letter-spacing: 0.2em; border-bottom: solid 1px rgba(160, 160, 160, 0.3); padding-bottom: 1em; margin-bottom: 2em;">LATEST NEWS</h2>
+
+                            <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h3><a href="#">RoboPhysics Boot Camp 2025</a></h3>
+                                        <p>Selected as 1 of 10 participants at Georgia Tech & CRAB Lab.</p>
+                                    </div>
+                                    <div class="meta">
+                                        <time class="published" datetime="2025-06-01">June 2025</time>
+                                    </div>
+                                </header>
+                                <div class="news-image-container">
+                                    <img src="images/robophysics_bootcamp_news.jpg" alt="RoboPhysics" />
+                                </div>
+                                <p>Excited to share my honor of being selected as one of the few participants at the 2025 Robophysics bootcamp organized by CRAB Lab and Georgia Institute of Technology.</p>
+                            </article>
+
+                            <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h3><a href="#">GT-Boeing FLT Program Selection</a></h3>
+                                        <p>Selected as a Mentee for the 2025 Program under Hunter Kim.</p>
+                                    </div>
+                                </header>
+                                <div class="news-image-container">
+                                    <img src="images/FLT_Logo.jpg" alt="Boeing Logo" style="max-width: 300px;" />
+                                </div>
+                                <p>Featured in the June 2025 Newsletter as one of the aspiring Mentees in the GT-Boeing FLT Program.</p>
+                            </article>
+
+                            <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h3><a href="#">National Award for Pakistan - IAAC 2024</a></h3>
+                                        <p>Top 1% of International Competitors & Highest Scorer from Pakistan.</p>
+                                    </div>
+                                </header>
+                                <div class="news-image-container">
+                                    <img src="images/IAAC_Logo.jpg" alt="IAAC Award" />
+                                </div>
+                                <p>Awarded for excellence in the International Astronomy and Astrophysics Competition, ranking among the top scoring competitors globally.</p>
+                            </article>
+
+                    </div>
+
+                <section id="sidebar">
+
+                        <section id="intro">
+                                <img src="images/Profile_Photo.jpg" alt="Malik Nauman Rauf" class="logo-left" />
+                                <header>
+                                    <h2 style="text-align: center;">Malik Nauman Rauf</h2>
+                                    <p style="text-align: center;">Aerospace Engineer</p>
+                                </header>
+                                <hr />
+                                <div style="font-style: italic; font-size: 0.85em; text-align: center; line-height: 1.8;">
+                                    "In brightest skies, through boundless flight,<br />
+                                    No flaw shall veil my vision's light.<br />
+                                    With self-born fire and boundless spree,<br />
+                                    Beware my Power—<strong>ENGINEER'S MIGHT</strong><br /><br />
+                                    With engines loud and purpose high,<br />
+                                    Through realms unknown, I soar the sky.<br />
+                                    Let stars bear witness to what I've begun—<br />
+                                    For flight, for truth, 'til the quest is won!"
+                                </div>
+                                <hr />
+                                <div style="text-align: center;">
+                                    <img src="images/GT_Vertical_Log.jpg" alt="Georgia Tech" style="width: 80px; height: auto;" />
+                                </div>
+                            </section>
+
+                        <section class="blurb">
+                                <h2>Connect</h2>
+                                <ul class="alt">
+                                    <li><strong>WhatsApp:</strong> Available on Request</li>
+                                    <li><strong>Email:</strong> <a href="mailto:naumanrauf@gatech.edu">naumanrauf@gatech.edu</a></li>
+                                </ul>
+                                <ul class="icons">
+                                    <li><a href="https://github.com/naumanraufhanx" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/naumanrauf/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="https://orcid.org/0000-0002-3628-4331" class="icon solid fa-id-card"><span class="label">ORCID</span></a></li>
+                                    <li><a href="https://scholar.google.com/citations?user=me0X5LUAAAAJ&hl=en" class="icon solid fa-graduation-cap"><span class="label">Scholar</span></a></li>
+                                    <li><a href="https://www.instagram.com/ozymandias_207" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                    <li><a href="https://facebook.com" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                </ul>
+                            </section>
+
+                        <section id="footer">
+                            <p class="copyright">&copy; Malik Nauman Rauf. <br />Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
+                        </section>
+                    </section>
+            </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+    </body>
 </html>

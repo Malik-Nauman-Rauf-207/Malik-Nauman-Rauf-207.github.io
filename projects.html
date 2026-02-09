@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Projects | Malik Nauman Rauf</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            .projects-hero {
+                background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Academic_Professional_Projects_Background.jpg');
+                background-size: cover; background-position: center; height: 250px;
+                display: flex; align-items: center; justify-content: center; color: white;
+                margin-bottom: 2em; border-radius: 4px;
+            }
+            .section-header {
+                font-size: 1.5em; font-weight: 800; color: #2ebaae;
+                border-bottom: solid 2px #2ebaae; margin: 2em 0 1.5em 0;
+                display: inline-block; padding-right: 1em; text-transform: uppercase;
+            }
+            .project-grid {
+                display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 2em; margin-bottom: 3em;
+            }
+            .project-card {
+                background: #fff; border: 1px solid rgba(160, 160, 160, 0.2);
+                border-radius: 4px; overflow: hidden; display: flex; flex-direction: column;
+            }
+            .project-image { height: 200px; overflow: hidden; background: #f0f0f0; }
+            .project-image img, .project-image iframe { width: 100%; height: 100%; object-fit: cover; border: none; }
+            .project-body { padding: 1.5em; flex-grow: 1; }
+            .tag {
+                display: inline-block; background: #2ebaae; color: white;
+                padding: 0.2em 0.8em; border-radius: 4px; font-size: 0.7em;
+                text-transform: uppercase; margin-bottom: 1em; font-weight: bold;
+            }
+            .logo-left { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; margin: 0 auto 1.5em auto; display: block; border: 3px solid rgba(160, 160, 160, 0.3); }
+        </style>
+    </head>
+    <body class="is-preload">
+        <div id="wrapper">
+            <header id="header">
+                <h1><a href="index.html">Malik Nauman Rauf</a></h1>
+                <nav class="links">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="awards.html">Honors & Awards</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="main">
+                <div class="projects-hero">
+                    <h2 style="color: white; margin: 0; letter-spacing: 0.3em;">TECHNICAL PROJECTS</h2>
+                </div>
+
+                <div class="section-header">Ongoing Projects</div>
+                <div class="project-grid">
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <iframe src="https://www.youtube.com/embed/m0b4maZAjxM" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-body">
+                            <span class="tag">Research</span>
+                            <h3>Global Model Reduction approach for Nonlinear Dynamical Systems</h3>
+                            <p>Exploring conditions for nonlinear global model reduction using Balanced Realizations via Observability and Controllability characteristics (Grammians).</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/Distributions.jpg" alt="Optimal Control"></div>
+                        <div class="project-body">
+                            <span class="tag">Research</span>
+                            <h3>Solution of Discontinuous Optimal Control Problems</h3>
+                            <p>Exploring generalized solutions for optimal control with discontinuity in cost and dynamics using Colombeau ideology.</p>
+                        </div>
+                    </article>
+                 </div>
+
+                <div class="section-header">Past Projects</div>
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <iframe src="https://www.youtube.com/embed/k5yYEzogtP8" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-body">
+                            <span class="tag">Demonstration</span>
+                            <h3>Human-Robot & Multi-Robot Consensus Control</h3>
+                            <p>Experimental investigation of cooperation between autonomous agents and humans in real-life scenarios.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/Multi_Agent_Adversarial_Project.jpg" alt="Optimal Control"></div>
+                        <div class="project-body">
+                            <span class="tag">Reinforcement Learning</span>
+                            <h3>Multi-Agent Adversarial Reinforcement Learning</h3>
+                            <p>Investigation of Experience-based learning applied in uncertain multi-agent adversarial scenarios.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/Positive_Systems.jpg" alt="Positive Systems"></div>
+                        <div class="project-body">
+                            <span class="tag">Control</span>
+                            <h3>Optimal Control of Positive Systems</h3>
+                            <p>Developing feedback controls to ensure positivity constraints are met in an optimal manner for medical and biological applications.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/Robophysics_project.jpg" alt="Robophysics"></div>
+                        <div class="project-body">
+                            <span class="tag">Robotics</span>
+                            <h3>Three-Link Robotic System</h3>
+                            <p>Modeling, simulation, and design of a three-link robotic crawler as part of the Robophysics Bootcamp 2025.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/UAV_Launcher.jpg" alt="UAV Launcher"></div>
+                        <div class="project-body">
+                            <span class="tag">Aviation</span>
+                            <h3>UAV/Glider Launch Platform</h3>
+                            <p>Design of vehicle-top and catapult/bungee launch mechanisms for weight-constrained unmanned systems.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/Warhead_Project.jpg" alt="Warhead"></div>
+                        <div class="project-body">
+                            <span class="tag">Defense</span>
+                            <h3>Fragmenting Warhead Design</h3>
+                            <p>Complete design, performance, and lethality assessment of a fragmenting warhead system.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/Solid_Rocket_Motor.jpg" alt="SRM"></div>
+                        <div class="project-body">
+                            <span class="tag">Propulsion</span>
+                            <h3>Design and Assessment of an SRM</h3>
+                            <p>Addressing design concerns and analyzing performance of solid-rocket motors for launch vehicles.</p>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/Aerospace_Structures.jpg" alt="Structures"></div>
+                        <div class="project-body">
+                            <span class="tag">Structures</span>
+                            <h3>Damage Tolerance Framework</h3>
+                            <p>Constructed a MATLAB tool for assessing structural strength and Fatigue life using Linear-Elastic Fracture Mechanics.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><img src="images/RC_plane_Project.jpg" alt="RC Plane"></div>
+                        <div class="project-body">
+                            <span class="tag">Avionics</span>
+                            <h3>RC Flight Testing</h3>
+                            <p>Development and flight testing of remote-controlled aircraft to validate stability derivatives and control response.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <section id="sidebar">
+                <section id="intro">
+                    <img src="images/Profile_Photo.jpg" alt="Malik Nauman Rauf" class="logo-left" />
+                    <header>
+                        <h2 style="text-align: center;">Malik Nauman Rauf</h2>
+                        <p style="text-align: center;">Aerospace Engineer</p>
+                    </header>
+                    <hr />
+                    <div style="font-style: italic; font-size: 0.85em; text-align: center; line-height: 1.8;">
+                        "No flaw shall veil my vision's light.<br />
+                        Beware my Power—<strong>ENGINEER'S MIGHT</strong>"
+                    </div>
+                </section>
+
+                <section class="blurb">
+                    <h2>Connect</h2>
+                    <ul class="icons">
+                        <li><a href="https://github.com/naumanraufhanx" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/naumanrauf/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://orcid.org/0000-0002-3628-4331" class="icon solid fa-id-card"><span class="label">ORCID</span></a></li>
+                        <li><a href="https://scholar.google.com/citations?user=me0X5LUAAAAJ&hl=en" class="icon solid fa-graduation-cap"><span class="label">Scholar</span></a></li>
+                        <li><a href="https://www.instagram.com/ozymandias_207" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
