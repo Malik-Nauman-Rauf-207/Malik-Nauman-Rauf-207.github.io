@@ -2,7 +2,7 @@
 
 This repository hosts my professional portfolio website, showcasing my research and projects in **Aerospace Engineering**, **Flight Dynamics**, and **Control Systems**. 
 
-**Live Site:** [https://Malik-Nauman-Rauf-207.github.io/](https://naumanrauf.github.io/)
+**Live Site:** [https://Malik-Nauman-Rauf-207.github.io/](https://Malik-Nauman-Rauf-207.github.io/)
 
 ---
 
