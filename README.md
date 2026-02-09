@@ -1,33 +1,37 @@
-# Malik Nauman Rauf - Aerospace Engineer & Fulbright Scholar
+# Malik Nauman Rauf | Professional Portfolio
 
-Welcome to my GitHub repository! This README provides an overview of my background, skills, and contributions in the field of aerospace engineering.
+This repository hosts my professional portfolio website, showcasing my research and projects in **Aerospace Engineering**, **Flight Dynamics**, and **Control Systems**. 
 
-## About Me
+**Live Site:** [https://naumanraufhanx.github.io/](https://naumanraufhanx.github.io/)
 
-I am Malik Nauman Rauf, an aerospace engineer with a passion for innovation and exploration. As a Fulbright Scholar, I have had the opportunity to further my education and expertise in aerospace engineering, with a focus on [mention specific areas of focus or interest].
+---
 
-## Projects
+## 🚀 About Me
+I am an Aerospace Engineer and Fulbright Scholar currently pursuing a Master's at the **Georgia Institute of Technology**. My expertise lies in:
+* **Astrodynamics & Orbital Mechanics**
+* **UAV Stability and Control**
+* **Mathematical Model Reduction**
+* **Robophysics**
 
-### [Project Name]
+## 📚 Featured Research
+* **Small UAV Stability Analysis:** Published in *Journal of Control, Automation and Electrical Systems*.
+* **Digital Futures Research:** Presented at the 3rd International Conference on Digital Futures and Transformative Technologies.
 
-[Description of the project]
+## 🛠️ Technical Stack
+* **Framework:** [HTML5 UP](https://html5up.net/) (Static Site)
+* **Deployment:** GitHub Pages
+* **Languages:** HTML5, CSS3, JavaScript
+* **Engineering Tools:** MATLAB/Simulink, Python, LaTeX
 
-### [Project Name]
+## 📁 Repository Structure
+* `/assets`: Contains CSS, JS, and font libraries.
+* `/images`: Portfolio images, project screenshots, and certification badges.
+* `index.html`: The main entry point of the website.
 
-[Description of the project]
+## 📬 Contact
+* **LinkedIn:** [linkedin.com/in/naumanrauf/](https://www.linkedin.com/in/naumanrauf/)
+* **Google Scholar:** [Malik Nauman Rauf](https://scholar.google.com/)
+* **Email:** [Your Email Address]
 
-## Skills
-
-- Aerospace Engineering
-- Aerodynamics
-- Propulsion Systems
-- Spacecraft Design
-- [Add more skills as necessary]
-
-## Contact Me
-
-Feel free to reach out to me via email at [email@example.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/maliknaumanrauf/).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+---
+*Built with passion for flight and precision in control.*
