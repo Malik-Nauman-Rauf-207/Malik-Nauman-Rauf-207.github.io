@@ -30,7 +30,7 @@ I am an Aerospace Engineer and Fulbright Scholar currently pursuing a Master's a
 
 ## 📬 Contact
 * **LinkedIn:** [linkedin.com/in/naumanrauf/](https://www.linkedin.com/in/naumanrauf/)
-* **Google Scholar:** [Malik Nauman Rauf](https://scholar.google.com/)
+* **Google Scholar:** [Malik Nauman Rauf]([https://scholar.google.com/](https://scholar.google.com/citations?user=me0X5LUAAAAJ&hl=en))
 * **Email:** [Your Email Address]
 
 ---
