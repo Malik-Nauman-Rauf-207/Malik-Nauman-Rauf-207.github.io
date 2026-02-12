@@ -8,34 +8,52 @@
         <style>
             .publications-hero {
                 background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Research_Publication_Background.jpg');
-                background-size: cover;
-                background-position: center;
-                height: 250px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: white;
-                margin-bottom: 2em;
-                border-radius: 4px;
+                background-size: cover; background-position: center; height: 250px;
+                display: flex; align-items: center; justify-content: center; color: white;
+                margin-bottom: 2em; border-radius: 4px;
             }
-            .year-header {
-                font-size: 1.5em;
-                font-weight: 800;
-                color: #2ebaae;
-                border-bottom: solid 2px #2ebaae;
-                margin: 2em 0 1em 0;
+
+            /* Customizing BibBase to match your design */
+            #bibbase_contents .bibbase_group_i {
+                font-size: 1.5em !important;
+                font-weight: 800 !important;
+                color: #2ebaae !important;
+                border-bottom: solid 2px #2ebaae !important;
+                margin: 2em 0 1em 0 !important;
+                display: inline-block !important;
+                padding-right: 1em !important;
+                text-transform: uppercase;
+            }
+
+            .bibbase_paper {
+                padding: 1.5em !important;
+                background: #ffffff !important;
+                border-left: 5px solid #2ebaae !important;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
+                margin-bottom: 1.5em !important;
+                border-bottom: none !important;
+            }
+
+            .bibbase_paper_title { 
+                font-weight: 700 !important; 
+                color: #333 !important; 
+                font-family: inherit !important;
+            }
+
+            .bibbase_paper_author { color: #555 !important; }
+            
+            /* Hide BibBase default links if you want a cleaner look */
+            .bibbase_paper_links a {
                 display: inline-block;
-                padding-right: 1em;
+                background-color: #2ebaae;
+                color: white !important;
+                padding: 0.2em 0.8em;
+                border-radius: 4px;
+                text-decoration: none;
+                font-size: 0.8em;
+                margin-top: 10px;
             }
-            .pub-card {
-                padding: 1.5em;
-                background: #ffffff;
-                border-left: 5px solid #2ebaae;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-                margin-bottom: 1.5em;
-            }
-            .pub-title { font-weight: 700; color: #333; margin-bottom: 0.5em; display: block; }
-            .pub-venue { font-style: italic; color: #555; display: block; margin-bottom: 0.5em; }
+
             .logo-left { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; margin: 0 auto 1.5em auto; display: block; border: 3px solid rgba(160, 160, 160, 0.3); }
         </style>
     </head>
@@ -54,11 +72,7 @@
                     </ul>
                 </nav>
                 <nav class="main">
-                            <ul>
-                                <li class="menu">
-                                    <a class="fa-bars" href="#menu">Menu</a>
-                                </li>
-                            </ul>
+                    <ul><li class="menu"><a class="fa-bars" href="#menu">Menu</a></li></ul>
                 </nav>
             </header>
 
@@ -81,92 +95,10 @@
                     <h2 style="color: white; margin: 0; letter-spacing: 0.3em;">RESEARCH PUBLICATIONS</h2>
                 </div>
 
-                <div class="year-header">2026</div>
-                <div class="pub-card" style="border-left-color: #ddd;">
-                    <span class="pub-title">Generalized Euler-Lagrange Jump Conditions for Hybrid Systems</span>
-                    <span class="pub-venue">IEEE SouthEast Conference 2026</span>
-                    <p>Co-authored with Dr. Erik Verriest</p>
-                    <ul class="actions small">
-                        <li><a href="#" target="_blank" class="button small">Coming Soon!</a></li>
-                    </ul>
+                <div id="bibbase-container">
+                    <script src="https://bibbase.org/show?bib=https%3A%2F%2FMalik-Nauman-Rauf-207.github.io%2Fpublications.bib&jsonp=1"></script>
                 </div>
-
-                <div class="pub-card" style="border-left-color: #ddd;">
-                    <span class="pub-title">Causal Infinitesimal Modeling and the Generalized Euler-Lagrange Equation in Impulsive Optimal Control</span>
-                    <span class="pub-venue">(Under Review)</span>
-                    <p>Co-authored with Dr. Erik Verriest</p>
-                    <ul class="actions small">
-                        <li><a href="#" target="_blank" class="button small">Coming Soon!</a></li>
-                    </ul>
                 </div>
-
-                <div class="year-header">2023</div>
-
-                <div class="pub-card">
-                    <span class="pub-title">Designing an Analysis Framework for Estimating Life of a Component Subjected to a Constant Load and a Single Overload Using MATLAB</span>
-                    <span class="pub-venue">Journal of Material Science and Applied Engineering</span>
-                    <p>Co-authored with R. Khan and G. Majeed. Developed a MATLAB-based framework for structural component life estimation.</p>
-                    <ul class="actions small">
-                        <li><a href="https://www.mkscienceset.com/articles_file/356-_article1690965781.pdf" target="_blank" class="button small">View Full PDF</a></li>
-                    </ul>
-                </div>
-
-                <div class="pub-card">
-                    <span class="pub-title">Stability Analysis & Development of a Control Strategy for a Small UAV</span>
-                    <span class="pub-venue">3rd IEEE International Conference on Digital Futures and Transformative Technologies (ICoDT2)</span>
-                    <p>Research focused on the loitering munition control strategies and flight mechanics stability.</p>
-                    <ul class="actions small">
-                        <li><a href="https://ieeexplore.ieee.org/document/10325756" target="_blank" class="button small">Read on IEEE Xplore</a></li>
-                    </ul>
-                </div>
-
-                <div class="pub-card">
-                    <span class="pub-title">Design and analysis of stability and control for a small unmanned aerial vehicle</span>
-                    <span class="pub-venue">Journal of Control, Automation and Electrical Systems (Springer)</span>
-                    <p>A comprehensive methodology for analyzing Flight Dynamics and controls for UAVs in early design stages.</p>
-                    <ul class="actions small">
-                        <li><a href="https://link.springer.com/article/10.1007/s40435-023-01322-2" target="_blank" class="button small">Read on Springer</a></li>
-                    </ul>
-                </div>
-
-                <div class="year-header">2022</div>
-                <div class="pub-card">
-                    <span class="pub-title">The Cosmic Herald - Magazine Publication</span>
-                    <span class="pub-venue">Space Society IST</span>
-                    <p>Founder and lead for Pakistan's first space-oriented student magazine.</p>
-                    <ul class="actions small">
-                        <li><a href="https://istspacesociety.home.blog/2022/09/20/the-cosmic-herald/" target="_blank" class="button small">Grab a Copy</a></li>
-                    </ul>
-                </div>
-
-                <div class="pub-card">
-                    <span class="pub-title">Duae Vitae</span>
-                    <span class="pub-venue">Space Society IST</span>
-                    <p>Article | Are our choices really our own? DUAE VITAE is a compact view on the duality of our choices</p>
-                    <ul class="actions small">
-                        <li><a href="https://istspacesociety.home.blog/2020/10/09/duae-vitae/" target="_blank" class="button small">Read Here!</a></li>
-                    </ul>
-                </div>
-
-                <div class="pub-card">
-                    <span class="pub-title">2001 Odyssey - The Hunt for Life</span>
-                    <span class="pub-venue">Space Society IST</span>
-                    <p>Article | A viewpoint on the Mars Exploration Program and the Odyssey Orbiter.</p>
-                    <ul class="actions small">
-                        <li><a href="https://istspacesociety.home.blog/2020/01/25/2001-odyssey-the-hunt-for-life/" target="_blank" class="button small">Read Here!</a></li>
-                    </ul>
-                </div>
-
-                <div class="pub-card">
-                    <span class="pub-title">The Right Step</span>
-                    <span class="pub-venue">Film and Arts Society IST</span>
-                    <p>Play | A short Screen Play on corruption for an Amateur Film Competition</p>
-                    <ul class="actions small">
-                        <li><a href="assets/The_Right_Step.pdf" target="_blank" class="button small">Read Here!</a></li>
-                    </ul>
-                </div>
-
-            </div>
 
             <section id="sidebar">
                 <section id="intro">
