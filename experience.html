@@ -6,34 +6,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <style>
+            /* Mobile Title Alignment Fix */
+            @media screen and (max-width: 736px) {
+                #header h1 {
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 0;
+                }
+                #header h1 a {
+                    display: inline-block;
+                }
+            }
+
             .experience-hero {
                 background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Experiences_Background.jpg');
-                background-size: cover;
-                background-position: center;
-                height: 250px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: white;
-                margin-bottom: 2em;
-                border-radius: 4px;
+                background-size: cover; background-position: center; height: 250px;
+                display: flex; align-items: center; justify-content: center; color: white;
+                margin-bottom: 2em; border-radius: 4px;
             }
+
             .exp-card {
-                display: flex;
-                padding: 2em;
-                background: #ffffff;
-                border: 1px solid rgba(160, 160, 160, 0.2);
-                margin-bottom: 2em;
-                border-radius: 4px;
+                display: flex; padding: 2em; background: #ffffff;
+                border: 1px solid rgba(160, 160, 160, 0.2); margin-bottom: 2em; border-radius: 4px;
             }
+
             .exp-logo { width: 120px; margin-right: 2em; flex-shrink: 0; transition: opacity 0.3s ease; }
             .exp-logo:hover { opacity: 0.7; }
             .exp-logo img { width: 100%; height: auto; object-fit: contain; }
-            .exp-content h3 { margin-bottom: 0.25em; color: #333; }
-            .exp-date { font-size: 0.85em; color: #777; margin-bottom: 1em; display: block; font-weight: bold; }
+
+            .exp-content { 
+                text-align: justify; /* Force justified text */
+            }
+            .exp-content h3 { margin-bottom: 0.25em; color: #333; text-align: left; }
+            .exp-date { font-size: 0.85em; color: #777; margin-bottom: 1em; display: block; font-weight: bold; text-align: left; }
             .exp-content ul { margin-top: 0.5em; list-style: square; }
+
             .logo-left { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; margin: 0 auto 1.5em auto; display: block; border: 3px solid rgba(160, 160, 160, 0.3); }
-            @media screen and (max-width: 736px) { .exp-card { flex-direction: column; align-items: center; text-align: center; } .exp-logo { margin-right: 0; margin-bottom: 1.5em; } }
+
+            @media screen and (max-width: 736px) { 
+                .exp-card { flex-direction: column; align-items: center; text-align: center; } 
+                .exp-logo { margin-right: 0; margin-bottom: 1.5em; } 
+                .exp-content { text-align: justify; } /* Keep bullets justified on mobile */
+            }
         </style>
     </head>
     <body class="is-preload">
@@ -51,11 +65,11 @@
                     </ul>
                 </nav>
                 <nav class="main">
-                            <ul>
-                                <li class="menu">
-                                    <a class="fa-bars" href="#menu">Menu</a>
-                                </li>
-                            </ul>
+                    <ul>
+                        <li class="menu">
+                            <a class="fa-bars" href="#menu">Menu</a>
+                        </li>
+                    </ul>
                 </nav>
             </header>
 
@@ -163,17 +177,6 @@
                 </div>
 
                 <div class="exp-card">
-                    <a href="https://icase.ist.edu.pk/" target="_blank" class="exp-logo">
-                        <img src="images/ICASE_Logo.jpg" alt="ICASE">
-                    </a>
-                    <div class="exp-content">
-                        <h3>Manager / Organizer</h3>
-                        <span class="exp-date">International Conference on Aerospace Sciences & Engineering | Dec 2021</span>
-                        <p>Managed publication teams for the 7th iteration of ICASE, handling research abstract verification and event documentation.</p>
-                    </div>
-                </div>
-
-                <div class="exp-card">
                     <a href="https://www.pac.org.pk/" target="_blank" class="exp-logo">
                         <img src="images/Kamra_Logo.jpg" alt="PAC Kamra">
                     </a>
@@ -201,12 +204,12 @@
                 </section>
                 <section id="footer">
                     <ul class="icons">
-                                    <li><a href="https://github.com/naumanraufhanx" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                                    <li><a href="https://www.linkedin.com/in/naumanrauf/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                                    <li><a href="https://orcid.org/0000-0002-3628-4331" class="icon solid fa-id-card"><span class="label">ORCID</span></a></li>
-                                    <li><a href="https://scholar.google.com/citations?user=me0X5LUAAAAJ&hl=en" class="icon solid fa-graduation-cap"><span class="label">Scholar</span></a></li>
-                                    <li><a href="https://www.instagram.com/ozymandias_207" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                                </ul>
+                        <li><a href="https://github.com/naumanraufhanx" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/naumanrauf/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://orcid.org/0000-0002-3628-4331" class="icon solid fa-id-card"><span class="label">ORCID</span></a></li>
+                        <li><a href="https://scholar.google.com/citations?user=me0X5LUAAAAJ&hl=en" class="icon solid fa-graduation-cap"><span class="label">Scholar</span></a></li>
+                        <li><a href="https://www.instagram.com/ozymandias_207" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    </ul>
                 </section>
             </section>
         </div>
