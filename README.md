@@ -10,6 +10,7 @@ This repository hosts my professional portfolio website, showcasing my research 
 I am an Aerospace Engineer and Fulbright Scholar currently pursuing a Master's at the **Georgia Institute of Technology**. My expertise lies in:
 * **Astrodynamics & Orbital Mechanics**
 * **UAV Stability and Control**
+* **Control & Estimation**
 * **Mathematical Model Reduction**
 * **Robophysics**
 
