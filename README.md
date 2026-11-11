@@ -7,7 +7,7 @@ This repository hosts my professional portfolio website, showcasing my research 
 ---
 
 ## 🚀 About Me
-I am an Aerospace Engineer and Fulbright Scholar currently pursuing a Master's at the **Georgia Institute of Technology**. My expertise lies in:
+I am an Aerospace Engineer and a former Fulbright Scholar with a Master's from **Georgia Institute of Technology**, currently a Doctoral Student at **University of Illinois Urbana-Champaign** My expertise lies in:
 * **Astrodynamics & Orbital Mechanics**
 * **UAV Stability and Control**
 * **Control & Estimation**
